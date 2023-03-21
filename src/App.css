@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.main-container {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-wrapper {
+  display: block;
+  background-color:rgb(240,238,220);
+  width: 25%;
+  padding: 2rem 3rem;
+  border-radius: 0.4rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.input-field {
+  padding: 0.6rem;
+  display: block;
+  margin-top: 0.8rem;
+  width: 100%;
+  border-radius: 0.4rem;
+  border: 1px solid gainsboro;
+  font-size: 1.2rem;
+  color: rgb(61, 61, 61);
+  cursor: text;
+  background-color: rgb(252, 252, 252);
+}
+
+.to-base-container {
+  margin-bottom: 2rem;
+}
+
+.form-button {
+  text-align: center;
+  border: none;
+  padding: 0.7rem;
+  color: white;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+}
+
+.form-button:hover {
+  cursor: pointer;
+}
+
+.label-input-container {
+  margin: 2rem 0;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+#convert-button {
+  background-color: rgb(19, 129, 19);
+}
+
+#convert-button:hover {
+  background-color: rgb(14, 119, 14);
+}
+
+#reset-button {
+  background-color: rgb(97, 97, 97);
+  margin-left: 1rem;
+}
+
+#reset-button:hover {
+  background-color: rgb(80, 79, 79);
+}
+
+.textArea {
+  margin-top: 2rem;
+  width: 100%;
+  resize: none;
+  border-radius: 0.4rem;
+  color: rgb(61, 61, 61);
+  border: 1px solid gainsboro;
+  font-size: 1.1rem;
+  padding: 0.8rem;
+  cursor: text;
+  background-color: rgb(241, 241, 241);
+}
+
+.active-error {
+  border: 1px solid rgb(204, 68, 68);
+} 
+
+.error-field {
+  display: none;
+  padding-left: 0.3rem;
+  margin-top: 0.3rem;
+  font-size: 1rem;
+} 
+
+.error-message {
+  display: block;
+  color: rgb(204, 68, 68);
+}
+
+#copy-button {
+  background-color: rgb(97, 97, 97);
+  margin-top: 1rem;
+}
+
+#copy-button:hover {
+  background-color: rgb(80, 79, 79);
+  
+}
