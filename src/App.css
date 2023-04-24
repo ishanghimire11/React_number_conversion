@@ -13,6 +13,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  transition: 1s ease-in-out;
 }
 
 .main-wrapper {
@@ -21,6 +23,7 @@ body {
   width: 25%;
   padding: 2rem 3rem;
   border-radius: 0.4rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 h2 {
@@ -117,4 +120,24 @@ h2 {
 #copy-button:hover {
   background-color: rgb(80, 79, 79);
   
+}
+
+.copy-success {
+  margin-left: 1rem;
+  position: absolute;
+  right: 1rem;
+  top: 4rem;
+  min-width: 10%;
+  background-color: green;
+  color: white;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+
+.no-copy {
+  display: none;
+}
+
+.fa-check {
+  margin-right: 0.5rem;
 }
